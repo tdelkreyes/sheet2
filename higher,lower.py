@@ -3,7 +3,7 @@ from random import randint
 again = "yes"
 
 while again =="yes":
-    number = randint(1, 6)
+    number = randint(1, 1000)
     print("Ok, I've thought of a number between 1 and 6.\n")
     prompt = "Make a guess: "
     answer = -1
