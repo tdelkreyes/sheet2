@@ -1,10 +1,12 @@
 from random import randint
 
+top = 1000
+ 
 again = "yes"
 
 while again =="yes":
-    number = randint(1, 1000)
-    print("Ok, I've thought of a number between 1 and 6.\n")
+    number = randint(1, top)
+    print(f"Ok, I've thought of a number between 1 and {top}.\n")
     prompt = "Make a guess: "
     answer = -1
     counter = 0
